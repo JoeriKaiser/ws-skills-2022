@@ -22,17 +22,17 @@
 
 [lien github](...)
 
-Description :
+Description : Developpement d'une application mobile react-native qui facilite la recherche de missions pour les pros de santé
 
 ### Utilisation en production si applicable❌ / ✔️
 
 [lien du projet](...)
 
-Description :
+Description : Developpement d'une application mobile react-native qui facilite la recherche de missions pour les pros de santé
 
 ### Utilisation en environement professionnel ❌ / ✔️
 
-Description :
+Description : Developpement d'une application mobile react-native qui facilite la recherche de missions pour les pros de santé
 
 ## 🌐 J'utilise des ressources
 

@@ -10,7 +10,7 @@
 - les composants enfants et les _props_ qu'on leur passe ✔️
 - le déclenchement d'instructions en fonction des actions de l'utilisateur ✔️
 - le déclenchement d'instructions en fonction de l'étape du cycle de vie du composant ou du changement de valeur de ses props ✔️
-- l'usage d'un reducer (_useReducer_) pour gérer un état composé dans un composant ❌
+- l'usage d'un reducer (_useReducer_) pour gérer un état composé dans un composant ✔️
 - l'état stocké dans un composant avec un _context provider_ et accessible dans ses descendants via `useContext` ✔️
 
 ## 💻 J'utilise

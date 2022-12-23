@@ -8,22 +8,33 @@
 
 - Comment développer en utilisant un système de *livereloading* (`nodemon` par exemple) ✔️
 - La connexion de mon application à une base de données avec et sans ORM/ODM (avec `mongodb` puis `mongoose` par exemple) ✔️
-- Le développement d'une API REST et GraphQL (avec les packages `express` et `graphql` par exemple) ❌
-- *Bonus : la manipulation des fichiers système avec `fs` et l'utilisation des streams en NodeJS* ❌
+- Le développement d'une API REST et GraphQL (avec les packages `express` et `graphql` par exemple) ✔️
+- *Bonus : la manipulation des fichiers système avec `fs` et l'utilisation des streams en NodeJS* ✔️
 
 ## 💻 J'utilise
 
 ### Un exemple personnel commenté ❌ / ✔️
 
 ```javascript
-// this function takes a path to a .md file of the host system and write the HTML version of this file
-// the .html file is given back
-const convertMDFileToHTML = (pathToMDfile) => /* ... path to HTML file */
+// This function is used inside a TypeGraphql nodejs API and will take a string name 'code' as parameter and write the contents of that string to a new file stored locally
+// It will then use a node command to execute the file and return the respnse as a string
+
+async postCode(@Arg("code") code: string): Promise<string> {
+    try {
+      fs.writeFile("./src/child-processes/code.js", code);
+    } catch {
+      console.warn("error save file !");
+    }
+    const response = await execShellCommand(
+      "node ./src/child-processes/code.js",
+    );
+    return response.replace("/n", "");
+  }
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/WildCodeSchool/2209-wns-rivest-groupe4-back)
 
 Description :
 

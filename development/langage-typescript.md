@@ -15,9 +15,9 @@
 
 ### Un exemple personnel commenté ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/WildCodeSchool/2209-wns-rivest-groupe4-front , https://github.com/WildCodeSchool/2209-wns-rivest-groupe4-back)
 
 Description :
 
@@ -25,11 +25,11 @@ Description :
 
 [lien du projet](...)
 
-Description :
+Description : Developpement d'une application mobile et d'une web-app interne en react-native et react qui facilite la recherche de missions pour les pros de santé
 
 ### Utilisation en environement professionnel ❌ / ✔️
 
-Description :
+Description : Developpement d'une application mobile et d'une web-app interne en react-native et react qui facilite la recherche de missions pour les pros de santé
 
 ## 🌐 J'utilise des ressources
 

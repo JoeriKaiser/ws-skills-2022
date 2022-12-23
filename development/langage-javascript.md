@@ -9,7 +9,7 @@
 - les `structures` de base du langage ✔️
 - les normes `ecmascript` ✔️
 - l'utilisation de l'`asynchrone` ✔️
-- les spécifités du mot-clef `this` ❌
+- les spécifités du mot-clef `this` ✔️ 
 
 ## 💻 Je code en Javascript
 
@@ -29,11 +29,11 @@ Description : Application pour repondre aux situations d'urgences
 
 [lien du projet](https://www.joerikaiser.dev/)
 
-Description :
+Description : Developpement d'une application mobile et d'une web-app interne en react-native et react qui facilite la recherche de missions pour les pros de santé
 
-### J'ai utilisé ce langage en environement professionnel ❌
+### J'ai utilisé ce langage en environement professionnel ✔️ 
 
-Description :
+Description : Developpement d'une application mobile et d'une web-app interne en react-native et react qui facilite la recherche de missions pour les pros de santé
 
 ## 🌐 J'utilise des ressources
 
@@ -59,5 +59,5 @@ Résolution :
 ## 📽️ J'en fais la démonstration
 
 - J'ai ecrit un [tutoriel](...) ❌ / ✔️
-- J'ai fait une [présentation](...) ❌ / ✔️
+- J'ai fait une [présentation](...)  ✔️
 
